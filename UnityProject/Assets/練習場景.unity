@@ -304,6 +304,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &729473412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: d623cd35a78380d4eb0457c4e483abed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1917969925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &729473415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729473412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f6f04c3d6ebadf4392542aa3bc0bef0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20.5
+  jump: 30
+  talk: "\u5495\u5495\u5495~~"
+  egg: 0
 --- !u!1001 &1917969925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -317,15 +339,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d623cd35a78380d4eb0457c4e483abed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.085
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d623cd35a78380d4eb0457c4e483abed, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d623cd35a78380d4eb0457c4e483abed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.072
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d623cd35a78380d4eb0457c4e483abed, type: 3}
       propertyPath: m_LocalRotation.x
